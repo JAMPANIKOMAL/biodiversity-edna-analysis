@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Data files (raw, processed, outputs)
+data/01_raw/
+data/02_processed/
+reports/figures/
+
+# Allow sample data or small test files if needed
+!data/01_raw/README.md
+!data/02_processed/README.md
+!reports/figures/README.md
+
+# Logs
+*.log
+
+# Plotly and matplotlib cache
+.cache/
+__plots__/
+
+
+# Ignore data files
+data/
