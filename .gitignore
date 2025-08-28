@@ -41,3 +41,17 @@ __plots__/
 
 # Ignore data files
 data/
+
+# Python virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files
+# This line tells Git to ignore the entire data directory and its contents
+data/
+
+# System files
+__pycache__/
+*.pyc
