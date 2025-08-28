@@ -1,21 +1,5 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-env/
+# Python virtual environment
 venv/
-ENV/
-env.bak/
-venv.bak/
-*.egg-info/
-dist/
-build/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -23,35 +7,12 @@ build/
 # VS Code settings
 .vscode/
 
-# Mac/Windows system files
+# System files (macOS/Windows)
 .DS_Store
 Thumbs.db
-
-
-# Ignore all data files and folders
-data/
-
-# Logs
-*.log
-
-# Plotly and matplotlib cache
-.cache/
-__plots__/
-
-
-# Ignore data files
-data/
-
-# Python virtual environment
-venv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+__pycache__/
+*.pyc
 
 # Large data files
 # This line tells Git to ignore the entire data directory and its contents
 data/
-
-# System files
-__pycache__/
-*.pyc
